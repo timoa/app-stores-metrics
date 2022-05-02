@@ -1,8 +1,7 @@
 {
   "repositoryUrl": "https://github.com/timoa/app-stores-metrics.git",
   "branches": [
-    "main",
-    "develop"
+    "main"
   ],
   "tagFormat": "v${version}",
   "plugins": [
