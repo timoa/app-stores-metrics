@@ -1,3 +1,10 @@
+## [0.2.2](https://github.com/timoa/app-stores-metrics/compare/v0.2.1...v0.2.2) (2022-05-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @snyk/protect to v1.907.0 ([c0b1611](https://github.com/timoa/app-stores-metrics/commit/c0b1611ef161249079cc437348a36f693d0f491c))
+
 ## [0.2.1](https://github.com/timoa/app-stores-metrics/compare/v0.2.0...v0.2.1) (2022-05-02)
 
 
