@@ -2,6 +2,8 @@
   "name": "app-stores-metrics",
   "version": "0.1.0",
   "description": "NPM module that scrapes metrics from Apple App Store and Google Play Stores",
+  "private": true,
+  "snyk": true,
   "scripts": {
     "start": "node src/index",
     "pretest": "./node_modules/.bin/eslint ./src",
@@ -66,6 +68,5 @@
     "npm-run-all": "4.1.5",
     "nyc": "15.1.0",
     "request": "2.88.2"
-  },
-  "snyk": true
+  }
 }
