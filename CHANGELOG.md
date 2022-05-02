@@ -1,3 +1,10 @@
+## [0.2.3](https://github.com/timoa/app-stores-metrics/compare/v0.2.2...v0.2.3) (2022-05-02)
+
+
+### Bug Fixes
+
+* **release:** remove the develop branch from the release ([e6e9074](https://github.com/timoa/app-stores-metrics/commit/e6e9074a957940975a3aa92a7dec5a339c62726b))
+
 ## [0.2.2](https://github.com/timoa/app-stores-metrics/compare/v0.2.1...v0.2.2) (2022-05-02)
 
 
