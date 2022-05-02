@@ -1,6 +1,6 @@
 {
   "name": "app-stores-metrics",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "NPM module that scrapes metrics from Apple App Store and Google Play Stores",
   "private": true,
   "snyk": true,
