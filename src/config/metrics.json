@@ -1,0 +1,62 @@
+{
+  "score": {
+    "description": "App score since the launch of the app",
+    "compatibility": ["itunes", "gplay"],
+    "default": true
+  },
+  "reviews": {
+    "description": "App reviews since the launch of the app",
+    "compatibility": ["itunes", "gplay"],
+    "default": true
+  },
+  "ratings": {
+    "description": "App ratings since the launch of the app",
+    "compatibility": ["itunes", "gplay"],
+    "default": true
+  },
+  "ratings1": {
+    "description": "App ratings with 1 star since the launch of the app",
+    "compatibility": ["itunes", "gplay"],
+    "default": true
+  },
+  "ratings2": {
+    "description": "App ratings with 2 stars since the launch of the app",
+    "compatibility": ["itunes", "gplay"],
+    "default": true
+  },
+  "ratings3": {
+    "description": "App ratings with 3 stars since the launch of the app",
+    "compatibility": ["itunes", "gplay"],
+    "default": true
+  },
+  "ratings4": {
+    "description": "App ratings with 4 stars since the launch of the app",
+    "compatibility": ["itunes", "gplay"],
+    "default": true
+  },
+  "ratings5": {
+    "description": "App ratings with 5 stars since the launch of the app",
+    "compatibility": ["itunes", "gplay"],
+    "default": true
+  },
+  "currentVersionScore": {
+    "description": "App score for the current app version",
+    "compatibility": ["itunes"],
+    "default": true
+  },
+  "currentVersionReviews": {
+    "description": "App reviews for the current app version",
+    "compatibility": ["itunes"],
+    "default": true
+  },
+  "minInstalls": {
+    "description": "App minimum installs since the launch of the app",
+    "compatibility": ["gplay"],
+    "default": true
+  },
+  "maxInstalls": {
+    "description": "App maximum installs since the launch of the app",
+    "compatibility": ["gplay"],
+    "default": true
+  }
+}
