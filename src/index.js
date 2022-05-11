@@ -1,6 +1,4 @@
-// const logger = require('./lib/logger');
-
-// Defaults
+// Default options
 const defaults = {
   apps: [
     {
