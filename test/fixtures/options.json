@@ -1,0 +1,29 @@
+{
+  "apps": [{
+    "id": "com.spotify.music",
+    "stores": ["itunes", "gplay"],
+    "countries": ["us", "gb"]
+  }, {
+    "id": "net.whatsapp.WhatsApp",
+    "stores": ["itunes"],
+    "countries": ["us", "gb"]
+  }, {
+    "id": "com.whatsapp",
+    "stores": ["gplay"],
+    "countries": ["us", "gb"]
+  }],
+  "metrics": {
+    "score": true,
+    "reviews": true,
+    "ratings": true,
+    "ratings1": true,
+    "ratings2": true,
+    "ratings3": true,
+    "ratings4": true,
+    "ratings5": true,
+    "currentVersionScore": true,
+    "currentVersionReviews": true,
+    "minInstalls": true,
+    "maxInstalls": true
+  }
+}

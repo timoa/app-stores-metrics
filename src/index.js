@@ -1,20 +1,43 @@
-const fs = require('fs');
-const path = require('path');
+// Default options
+const defaults = {
+  apps: [
+    {
+      id: 'com.spotify.music',
+      stores: [
+        'itunes',
+        'gplay',
+      ],
+      countries: [
+        'gb',
+      ],
+    },
+  ],
+  metrics: {
+    score: true,
+    reviews: true,
+    ratings: true,
+    ratings1: true,
+    ratings2: true,
+    ratings3: true,
+    ratings4: true,
+    ratings5: true,
+    currentVersionScore: true,
+    currentVersionReviews: true,
+    minInstalls: true,
+    maxInstalls: true,
+  },
+};
 
-const logger = require('./lib/logger');
-
-// Check if there is a `apps.json` in the config folder
-if (!fs.existsSync(path.resolve(__dirname, '../config/apps.json'))) {
-  logger.error(
-    'Please copy the file "src/examples/apps.json" => "config/apps.json"',
-  );
-  process.exit(1);
+/**
+ * Get App Stores data based on the given app stores options
+ *
+ * @param {Object} opt
+ */
+function getAppStoresMetrics(opt) {
+  return { ...defaults, ...opt };
+  // Get enabled metrics
+  // Call the scraper(s) for each store / app / country
+  // Return the data
 }
 
-// Check if there is a `config.json` in the config folder
-if (!fs.existsSync(path.resolve(__dirname, '../config/config.json'))) {
-  logger.error(
-    'Please copy the file "src/examples/metrics.json" => "config/config.json"',
-  );
-  process.exit(1);
-}
+module.exports = { getAppStoresMetrics };

@@ -1,0 +1,15 @@
+{
+  "apps": [{
+    "id": "com.spotify.music",
+    "stores": ["itunes", "gplay"],
+    "countries": ["us", "gb"]
+  }, {
+    "id": "net.whatsapp.WhatsApp",
+    "stores": ["itunes"],
+    "countries": ["us", "gb"]
+  }, {
+    "id": "com.whatsapp",
+    "stores": ["gplay"],
+    "countries": ["us", "gb"]
+  }]
+}
