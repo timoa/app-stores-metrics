@@ -37,7 +37,7 @@
    "app-store-scraper": "0.17.0",
     "google-play-scraper": "9.1.1",
     "uuid": "8.3.2",
-    "winston": "3.9.0"
+    "winston": "3.10.0"
   },
   "engines": {
     "node": ">=16.0",
