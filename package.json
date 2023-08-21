@@ -35,7 +35,7 @@
   "homepage": "https://github.com/timoa/app-stores-metrics#readme",
   "dependencies": {
    "app-store-scraper": "0.17.0",
-    "google-play-scraper": "9.1.1",
+    "google-play-scraper": "9.2.0",
     "uuid": "8.3.2",
     "winston": "3.10.0"
   },
